@@ -5,7 +5,7 @@ from datetime import datetime
 LOG_FILE_NAME=f"{datetime.now().strftime('%Y_%m_%d_%H_%M_%S')}.log"
 
 LOGS_DIRECTORY = os.path.join(os.getcwd(),"logs")
-os.makedirs(os.path.dirname(LOGS_DIRECTORY), exist_ok=True)
+os.makedirs(LOGS_DIRECTORY, exist_ok=True)
 
 LOG_FILE_PATH = os.path.join(LOGS_DIRECTORY, LOG_FILE_NAME)
 

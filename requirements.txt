@@ -4,5 +4,6 @@ numpy
 ipykernel
 pymongo
 certifi
-
+pymongo[srv]==3.6
+mongodb+srv://amiteshvishwakarma2006:jyVjQdMaAGx4x3LU@cluster0.dr6pazq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 ##-e .
