@@ -1,0 +1,6 @@
+[2025-08-07 22:48:35,624] 23 root - INFO - Data Ingestion object created with config: <networksecurity.entity.config_entity.DataIngestionConfig object at 0x000002186E1F3BE0>
+[2025-08-07 22:48:35,625] 14 root - INFO - Starting data ingestion process
+[2025-08-07 22:49:09,833] 54 root - INFO - Train-Test split done with ratio: 0.2
+[2025-08-07 22:49:09,833] 55 root - INFO - Exited split_data_as_train_test method of DataIngestion class
+[2025-08-07 22:49:09,835] 58 root - INFO - Exporting train and test data to respective paths
+[2025-08-07 22:49:09,910] 61 root - INFO - Exported to train and test file path
